@@ -1,0 +1,371 @@
+{
+  "descritiva": {
+    "mort_infantil": {
+      "count": 5565.0,
+      "mean": 19.247,
+      "std": 7.137,
+      "min": 8.49,
+      "25%": 13.8,
+      "50%": 16.9,
+      "75%": 23.8,
+      "max": 46.8,
+      "cv_%": 37.079
+    },
+    "pct_agua_esgoto_inadeq": {
+      "count": 5565.0,
+      "mean": 9.202,
+      "std": 12.839,
+      "min": 0.0,
+      "25%": 0.53,
+      "50%": 3.26,
+      "75%": 13.02,
+      "max": 85.36,
+      "cv_%": 139.53
+    },
+    "pct_coleta_lixo": {
+      "count": 5565.0,
+      "mean": 94.047,
+      "std": 11.05,
+      "min": 0.0,
+      "25%": 93.72,
+      "50%": 98.03,
+      "75%": 99.49,
+      "max": 100.0,
+      "cv_%": 11.749
+    },
+    "renda_per_capita": {
+      "count": 5565.0,
+      "mean": 493.606,
+      "std": 243.269,
+      "min": 96.25,
+      "25%": 281.12,
+      "50%": 467.65,
+      "75%": 650.62,
+      "max": 2043.74,
+      "cv_%": 49.284
+    },
+    "pct_analf_18mais": {
+      "count": 5565.0,
+      "mean": 17.405,
+      "std": 10.699,
+      "min": 0.97,
+      "25%": 8.59,
+      "50%": 14.11,
+      "75%": 26.26,
+      "max": 47.64,
+      "cv_%": 61.472
+    },
+    "pct_urbanizacao": {
+      "count": 5565.0,
+      "mean": 63.826,
+      "std": 22.041,
+      "min": 4.18,
+      "25%": 47.08,
+      "50%": 64.66,
+      "75%": 82.21,
+      "max": 100.0,
+      "cv_%": 34.533
+    }
+  },
+  "normal": {
+    "media": 19.246982929020664,
+    "dp": 7.136001777849637,
+    "mediana": 16.9,
+    "z_a": 0.0,
+    "p_a": 0.5,
+    "class_a": "evento equiprovável (50%)",
+    "z_b": -0.32889326573681227,
+    "p_b": 0.6288818177090859,
+    "class_b": "evento provável (p > 50%)"
+  },
+  "teste_a": {
+    "n": 20,
+    "alpha": 0.06,
+    "cauda": "esquerda",
+    "xbar": 17.625,
+    "z": -1.0164975291604652,
+    "zc": -1.5547735945968535,
+    "p": 0.15469626175975865,
+    "rejeita": false,
+    "amostra": [
+      32.8,
+      11.9,
+      16.2,
+      16.5,
+      15.7,
+      15.7,
+      34.3,
+      11.6,
+      28.6,
+      11.6,
+      16.0,
+      21.8,
+      13.7,
+      17.1,
+      15.8,
+      15.8,
+      17.8,
+      14.5,
+      13.2,
+      11.9
+    ]
+  },
+  "teste_b": {
+    "n": 25,
+    "alpha": 0.09,
+    "cauda": "direita",
+    "xbar": 19.06,
+    "z": -0.13101379094457757,
+    "zc": 1.3407550336902165,
+    "p": 0.5521178010773273,
+    "rejeita": false,
+    "amostra": [
+      12.1,
+      26.7,
+      16.6,
+      20.6,
+      14.0,
+      14.2,
+      18.4,
+      24.5,
+      15.8,
+      13.7,
+      17.8,
+      28.2,
+      15.2,
+      29.8,
+      20.4,
+      14.4,
+      34.2,
+      24.8,
+      19.5,
+      17.6,
+      14.8,
+      13.4,
+      9.5,
+      29.8,
+      10.5
+    ]
+  },
+  "bivariada": {
+    "cov": 55.97420221298127,
+    "r": 0.6108810277979935,
+    "p_r": 0.0
+  },
+  "simples": {
+    "b0": 16.122471353495065,
+    "b1": 0.3395574855231298,
+    "r2": 0.37317563012353316,
+    "r2adj": 0.37306295272466994,
+    "F": 3311.8942564188173,
+    "Fcrit": 3.8431309640665914,
+    "pF": 0.0,
+    "prev": [
+      {
+        "pct_agua_esgoto_inadeq": 5,
+        "mean": 17.82,
+        "obs_ci_lower": 6.741,
+        "obs_ci_upper": 28.899
+      },
+      {
+        "pct_agua_esgoto_inadeq": 20,
+        "mean": 22.914,
+        "obs_ci_lower": 11.834,
+        "obs_ci_upper": 33.993
+      },
+      {
+        "pct_agua_esgoto_inadeq": 40,
+        "mean": 29.705,
+        "obs_ci_lower": 18.62,
+        "obs_ci_upper": 40.789
+      }
+    ]
+  },
+  "cor_matriz": {
+    "mort_infantil": {
+      "mort_infantil": 1.0,
+      "pct_agua_esgoto_inadeq": 0.611,
+      "pct_coleta_lixo": -0.441,
+      "renda_per_capita": -0.744,
+      "pct_analf_18mais": 0.827,
+      "pct_urbanizacao": -0.362
+    },
+    "pct_agua_esgoto_inadeq": {
+      "mort_infantil": 0.611,
+      "pct_agua_esgoto_inadeq": 1.0,
+      "pct_coleta_lixo": -0.468,
+      "renda_per_capita": -0.587,
+      "pct_analf_18mais": 0.585,
+      "pct_urbanizacao": -0.403
+    },
+    "pct_coleta_lixo": {
+      "mort_infantil": -0.441,
+      "pct_agua_esgoto_inadeq": -0.468,
+      "pct_coleta_lixo": 1.0,
+      "renda_per_capita": 0.421,
+      "pct_analf_18mais": -0.413,
+      "pct_urbanizacao": 0.252
+    },
+    "renda_per_capita": {
+      "mort_infantil": -0.744,
+      "pct_agua_esgoto_inadeq": -0.587,
+      "pct_coleta_lixo": 0.421,
+      "renda_per_capita": 1.0,
+      "pct_analf_18mais": -0.818,
+      "pct_urbanizacao": 0.487
+    },
+    "pct_analf_18mais": {
+      "mort_infantil": 0.827,
+      "pct_agua_esgoto_inadeq": 0.585,
+      "pct_coleta_lixo": -0.413,
+      "renda_per_capita": -0.818,
+      "pct_analf_18mais": 1.0,
+      "pct_urbanizacao": -0.459
+    },
+    "pct_urbanizacao": {
+      "mort_infantil": -0.362,
+      "pct_agua_esgoto_inadeq": -0.403,
+      "pct_coleta_lixo": 0.252,
+      "renda_per_capita": 0.487,
+      "pct_analf_18mais": -0.459,
+      "pct_urbanizacao": 1.0
+    }
+  },
+  "multipla": {
+    "eq": "mort_infantil = 16.1208 + 0.08871*pct_agua_esgoto_inadeq - 0.04276*pct_coleta_lixo - 0.00472*renda_per_capita + 0.40671*pct_analf_18mais + 0.02481*pct_urbanizacao",
+    "params": {
+      "Intercept": 16.120806749854697,
+      "pct_agua_esgoto_inadeq": 0.08871115604514358,
+      "pct_coleta_lixo": -0.042759533982968355,
+      "renda_per_capita": -0.004722009915763636,
+      "pct_analf_18mais": 0.40671135829478466,
+      "pct_urbanizacao": 0.024808629443529986
+    },
+    "pvalues": {
+      "Intercept": 7.959212901287017e-144,
+      "pct_agua_esgoto_inadeq": 7.16473968302202e-63,
+      "pct_coleta_lixo": 7.244562397440659e-16,
+      "renda_per_capita": 2.1824000910700092e-35,
+      "pct_analf_18mais": 0.0,
+      "pct_urbanizacao": 1.7565644361707106e-20
+    },
+    "r2": 0.7228354752385346,
+    "r2adj": 0.7225861817282258,
+    "F": 2899.5358697576557,
+    "Fcrit": 2.2157073388399753,
+    "pF": 0.0,
+    "vif": {
+      "pct_agua_esgoto_inadeq": 1.7781650473427253,
+      "pct_coleta_lixo": 1.3430413614738292,
+      "renda_per_capita": 3.324853580834324,
+      "pct_analf_18mais": 3.217556681807862,
+      "pct_urbanizacao": 1.3576911264061164
+    }
+  },
+  "prev_multipla": [
+    {
+      "cenario": "Município com saneamento precário",
+      "pct_agua_esgoto_inadeq": 30.0,
+      "pct_coleta_lixo": 80.0,
+      "renda_per_capita": 300.0,
+      "pct_analf_18mais": 25.0,
+      "pct_urbanizacao": 50.0,
+      "mort_prevista": 25.353,
+      "IP95_inf": 17.981,
+      "IP95_sup": 32.725
+    },
+    {
+      "cenario": "Mesmo município após universalizar água/esgoto e lixo",
+      "pct_agua_esgoto_inadeq": 0.0,
+      "pct_coleta_lixo": 100.0,
+      "renda_per_capita": 300.0,
+      "pct_analf_18mais": 25.0,
+      "pct_urbanizacao": 50.0,
+      "mort_prevista": 21.836,
+      "IP95_inf": 14.465,
+      "IP95_sup": 29.208
+    },
+    {
+      "cenario": "Município médio brasileiro",
+      "pct_agua_esgoto_inadeq": 9.202,
+      "pct_coleta_lixo": 94.047,
+      "renda_per_capita": 493.606,
+      "pct_analf_18mais": 17.405,
+      "pct_urbanizacao": 63.826,
+      "mort_prevista": 19.247,
+      "IP95_inf": 11.877,
+      "IP95_sup": 26.617
+    }
+  ],
+  "logistica": {
+    "corte": 16.9,
+    "eq": "logit(p) = ln(p/(1-p)) = 2.2388 + 0.0859*pct_agua_esgoto_inadeq - 0.0175*pct_coleta_lixo - 0.6402*renda_100 + 0.1257*pct_analf_18mais",
+    "params": {
+      "Intercept": 2.2388219944371017,
+      "pct_agua_esgoto_inadeq": 0.08589989913676234,
+      "pct_coleta_lixo": -0.017541252467958745,
+      "renda_100": -0.640224865847585,
+      "pct_analf_18mais": 0.1257282722764498
+    },
+    "pvalues": {
+      "Intercept": 0.06585039930321945,
+      "pct_agua_esgoto_inadeq": 2.604199599828852e-16,
+      "pct_coleta_lixo": 0.13884019937397976,
+      "renda_100": 1.2560228359863548e-25,
+      "pct_analf_18mais": 1.6932491190563351e-21
+    },
+    "odds": {
+      "Intercept": 9.382272405922867,
+      "pct_agua_esgoto_inadeq": 1.0896972432107506,
+      "pct_coleta_lixo": 0.9826116996713175,
+      "renda_100": 0.5271738673153701,
+      "pct_analf_18mais": 1.1339739942431852
+    },
+    "cm": [
+      [
+        768,
+        67
+      ],
+      [
+        105,
+        730
+      ]
+    ],
+    "acc": 0.8970059880239521,
+    "acc_treino": 0.8829268292682927,
+    "sens": 0.874251497005988,
+    "espec": 0.9197604790419162,
+    "pseudo_r2": 0.6077549476938167,
+    "n_treino": 3895,
+    "n_teste": 1670
+  },
+  "class_logistica": [
+    {
+      "municipio_hipotetico": "A – saneamento precário e baixa renda",
+      "pct_agua_esgoto_inadeq": 35,
+      "pct_coleta_lixo": 75,
+      "renda_100": 2.5,
+      "pct_analf_18mais": 28,
+      "prob_alta_mortalidade": 0.9971,
+      "classificacao": "ALTA mortalidade (1)"
+    },
+    {
+      "municipio_hipotetico": "B – boa infraestrutura e renda média",
+      "pct_agua_esgoto_inadeq": 1,
+      "pct_coleta_lixo": 99,
+      "renda_100": 7.0,
+      "pct_analf_18mais": 6,
+      "prob_alta_mortalidade": 0.0415,
+      "classificacao": "Baixa/média mortalidade (0)"
+    },
+    {
+      "municipio_hipotetico": "C – precário em saneamento, mas renda média",
+      "pct_agua_esgoto_inadeq": 25,
+      "pct_coleta_lixo": 90,
+      "renda_100": 5.0,
+      "pct_analf_18mais": 12,
+      "prob_alta_mortalidade": 0.7531,
+      "classificacao": "ALTA mortalidade (1)"
+    }
+  ]
+}
